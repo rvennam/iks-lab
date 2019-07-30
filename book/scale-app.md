@@ -24,3 +24,7 @@ The application was deployed with 2 replicas. Let's scale it to 3 replicas.
      ```
     for i in {1..5}; do sleep 0.05; curl https://todo.<INGRESS SUBDOMAIN>/loadtest; done &
     ```
+ 3. List your pods and see if they scale
+    ```sh
+    kubectl get pods
+    ```
