@@ -17,7 +17,7 @@
 * [Get and run the app locally](get-app.md)
 * [Build docker image](docker-build.md)
 * [Push docker image](docker-push.md)
-* [Deploy app](deploy-app.md)
+* [Deploy to K8s](deploy-app.md)
 * [Scale app](scale-app.md)
 * [Optional: Connect to a database](connect-database.md)
 * [Optional: Test the resiliency](test-resiliency.md)
