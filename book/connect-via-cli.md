@@ -60,13 +60,18 @@ You need to target a Resource Group (RG) to view your cluster or to add a servic
     ![](./images/cli-cluster-list.png)
 
 1. Retrieve the cluster configuration by setting MYCLUSTER environment variable to your cluster name:
+
+    ```shell
+    export MYCLUSTER=<your_cluster_name>
+    ```
+    
     ```sh
     ibmcloud ks cluster-config MY_CLUSTER_NAME
     ```
 
 1. Copy and paste the displayed set command to set the KUBECONFIG environment variable as directed. 
 
-1. To verify whether the KUBECONFIG environment variable is set properly or not, run the following command:
+1. To verify whether the KUBECONFIG environment variable is set properly, run the following command:
     ```sh
     echo $KUBECONFIG
     ```
