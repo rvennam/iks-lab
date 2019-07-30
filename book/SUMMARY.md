@@ -7,8 +7,6 @@
 ## Preparation
 
 * [Pre-Requisites](prepare-prereq.md)
-* [Install Container Plugins](prepare-plugins.md)
-* [Main command lines](prepare-cli.md)
 * [Get a cluster](prepare-get-cluster.md)
 
 ## Lab 1 - Deploy an app in a Kubernetes cluster
