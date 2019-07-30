@@ -4,9 +4,9 @@ In this tutorial, you act as a developper. You configure a custom Kubernetes clu
 
 ## Objectives
 
-* Create a cluster with 1 worker pool that has 1 worker node.
+* Create/Get a Kubernetes Cluster
 * Install the CLIs for running Kubernetes commands and managing Docker images in IBM Cloud Container Registry.
-* Create a private image repository in IBM Cloud Container Registry to store your images.
+* Use a private image repository in IBM Cloud Container Registry to store your images.
 * Add the Cloudant NoSQL DB service to the cluster so that any app in the cluster can use that service.
 
 ## Architecture
