@@ -8,7 +8,7 @@ For this lab, a hosted shell is provided for you with all the necessary tools. U
 
 3. Using the account drop down, choose the **IBM** account.
 
-   ![](./imagse/cloudshell.png)
+   ![](https://raw.githubusercontent.com/rvennam/istio101/master/workshop/README_images/cloudshell.png)
    
 4. Click on the Terminal icon to launch your web shell.
 
