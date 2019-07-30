@@ -113,3 +113,27 @@ In this lab, we will test the **Ingress**.
     https://todo.<Ingress Subdomain>/
     ```
     In this example, the url would be ```https://todo.lab-cluster-1.eu-de.containers.appdomain.cloud```
+
+## Look under the covers
+
+1. Look at your deployments
+    ```
+    kubectl get deployments
+    ```
+2. See more details about it
+    ```
+    kubectl describe deployments <your deployment name>
+    ```
+3. See the pods
+    ```
+    kubectl get pods
+    ```
+4. See the services:
+    ```
+    kubectl get services
+    ```
+5. See the Ingress:
+    ```
+    kubectl get ingress
+    ```
+6. Launch the Kubernetes Dashboard from the IBM Cloud console and try to find all the resources above. You should be able to see the relationship between Ingress -> Service -> Pod
