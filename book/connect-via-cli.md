@@ -62,7 +62,7 @@ You need to target a Resource Group (RG) to view your cluster or to add a servic
 1. Retrieve the cluster configuration by setting MYCLUSTER environment variable to your cluster name:
 
     ```shell
-    export MYCLUSTER=<your_cluster_name>
+    export MY_CLUSTER_NAME=<your_cluster_name>
     ```
     
     ```sh
