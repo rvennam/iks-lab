@@ -22,5 +22,5 @@ The application was deployed with 2 replicas. Let's scale it to 3 replicas.
     ```
  2. Simulate load to the app
      ```
-    for i in {1..5}; do sleep 0.05; curl https://todo.<INGRESS SUBDOMAIN>/loadtest &; done
+    for i in {1..5}; do sleep 0.05; curl https://todo.<INGRESS SUBDOMAIN>/loadtest; done &
     ```
