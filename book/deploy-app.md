@@ -99,7 +99,7 @@ In this lab, we will test the **Ingress**.
 
 1. Deploy the app into your Kubernetes cluster.
     ```sh
-    kubectl apply -f ingress-tls-deploy.yaml
+    kubectl apply -f ./kubernetes/ingress-tls-deploy.yaml
     ```
     Result:
     ```
@@ -108,8 +108,8 @@ In this lab, we will test the **Ingress**.
     service/mytodos created   
     ```
 
-1. Open a browser and check out the app with the following URL:
+1. Open a browser and check out the app with the UR:
     ```
-    https://todo.<cluster-name>.eu-de.containers.appdomain.cloud
+    https://todo.<Ingress Subdomain>/
     ```
     In this example, the url would be ```https://todo.lab-cluster-1.eu-de.containers.appdomain.cloud```
