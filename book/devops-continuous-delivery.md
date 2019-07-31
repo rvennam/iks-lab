@@ -17,7 +17,7 @@ The toolchain includes:
 
 1. Log in to the IBM Cloud console and select the IBM lab account in the upper right dropdown.
 
-1. Open the creation page for the toolchain by clicking **[Create toolchain](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/lionelmace/mytodo&branch=master)**
+1. Open the creation page for the toolchain by clicking **[Create toolchain](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/rvennam/mytodo&branch=master)**
 
 1. The diagram of the toolchain shows each tool integration in its lifecycle phase in the toolchain.
 
