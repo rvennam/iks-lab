@@ -4,7 +4,7 @@ We will use a web application for managing todos. The front end is written in An
 
 1. Clone the source code for the Todo web app.
     ```sh
-    git clone https://github.com/lionelmace/mytodo
+    git clone https://github.com/rvennam/mytodo
     ```
     This command creates a directory of your project locally on your disk.
 
