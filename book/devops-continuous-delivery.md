@@ -23,7 +23,7 @@ The toolchain includes:
 
     ![](./images/toolchain-landing.png)
 
-1. Review the default information for the toolchain settings. Select the region **Frankfurt** and the Resource Group **lab**.
+1. Review the default information for the toolchain settings. Select the region **Washington DC** and the Resource Group **lab**.
 
     ![](./images/toolchain-name-param.png)
 
@@ -36,6 +36,8 @@ The toolchain includes:
     ![](./images/toolchain-pipeline-config.png)
 
     * **App name**: Enter the name for your application. The app name must be unique (if you want, you can just use the default value provided).
+    
+    * **IBM Cloud API Key** Press the button to create and set the key.
 
     * **Container Registry Region**: Select the region you want the docker images to be created into.
 
