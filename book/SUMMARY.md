@@ -21,7 +21,7 @@
 * [Scale app](scale-app.md)
 * [Optional: Connect to a database](connect-database.md)
 * [Optional: Test the resiliency](test-resiliency.md)
-* [Optional: RBAC](connect-database.md)
+* [Optional: RBAC](rbac.md)
 * [Clean up](clean-up.md)
 
 ## Lab 2 - DevOps and Helm charts
