@@ -66,7 +66,7 @@ You need to target a Resource Group (RG) to view your cluster or to add a servic
     ```
     
     ```sh
-    ibmcloud ks cluster-config MY_CLUSTER_NAME
+    ibmcloud ks cluster-config $MY_CLUSTER_NAME
     ```
 
 1. Copy and paste the displayed EXPORT line to set the KUBECONFIG environment variable. **DONT SKIP THIS STEP**
